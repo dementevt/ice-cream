@@ -1,0 +1,146 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 190px;
+    height: 120px;
+}
+
+ol{
+    list-style: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding-inline-start: 20px;
+    padding-left: 10;
+    padding-right: 10;
+}
+
+body{
+    background-color: rgba(254, 199, 126, 1);
+}
+
+a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 29px;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+    display: inline;
+    margin-right: 10px; 
+    padding: 8.5px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+a:hover{
+    color:#CC2A41;
+}
+
+
+button{
+    color: white;
+    border: 0;
+    background: #CC2A41;
+    border-radius: 10px;
+    width: 150px;
+    height: 53px;
+
+    cursor: pointer;
+    margin-top: 45px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    box-shadow: 0 0 40px 40px #CC2A41 inset, 0 0 0 0 #CC2A41;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+button:hover {
+  box-shadow: 0 0 10px 0 #CC2A41 inset, 0 0 10px 4px #CC2A41;
+}
+
+
+h1{
+    font-family : 'Roboto';
+    color: #CC2A41;
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 700px;
+    /* line-height: 120px; */
+    letter-spacing: 0em;
+    text-align: center;
+
+    margin: 20px;;
+}
+
+#line{
+    background: #000001;   
+    height: 1px;
+}
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 190px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    margin-top: 0px;
+    padding-left: 0px;
+
+    color: #CC2A41;
+}
+
+.slog{
+    margin-top: 0;
+}
+
+.main{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.ice{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 70%;
+    margin:auto;
+}
+p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    /* line-height: 190px; */
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    /* margin-top: 0px; */
+    /* padding-left: 0px; */
+
+    color: #CC2A41;
+}
+
+.marg{
+    display: flex;
+    justify-content: space-between;
+    width: 600;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.product-price{
+
+}
